@@ -33,10 +33,20 @@ __BananaFactory.Java (class):__
 - It implements the factory method pattern for creating Banana products
 - It inherits from the 'ConcreteGroceryProductFactory' class
 - It overrides the 'createProduct' method to create Banana products
-- The Banana products are created with the default price per pound
-
 __BananaFactory.Java (class) sceenshot:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/a7a583dc-0fd2-4a91-a61e-f21d69bba4b9)
 
+- The Banana products are created with the default price per pound
+
+__ConcreteGroceryProductFactory.Java (class):__
+
+- An abstract class that provides a common structure for concrete product factories
+- It initializes a 'priceMap' to store price information for different grocery products
+- The constructor reads price data from a data file and populates the 'priceMap'
+- It also provides a method to get the price of a product based on its name ('getPrice')
+
+__ConcreteGroceryProductFactory.Java (class) sceenshot:__ 
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/3ec786fd-cf2c-4fe6-b233-37c8d25aca20)
 
