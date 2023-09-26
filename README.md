@@ -67,5 +67,24 @@ __GroceryProduct.Java (class):__
 
 __GroceryProduct.Java (class) sceenshot:__  
 
-![image](https://github.com/Muji90/Assignment-1/assets/145510715/5ffc5be9-6663-4bf9-9286-a2f349ef52cb)
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/d5a8f9c4-a4da-4070-9944-1fb617d87e52)
+
+__GroceryProductFactory.Java (interface):__
+
+- An interface defining the contract for creating different grocery product factories. Both 'AppleFactory' and 'BananaFactory' implement this interface
+
+__GroceryProductFactory.Java (interface) screenshot:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/990bdc09-b41a-4660-8935-351d8738c3fd)
+
+__GroceryProductTest.Java (class):__
+
+- The main test class for the program
+- Utilizes a 'Scanner' to input the pounds of bananas and apples
+- Creates instances of Banana and Apple products using their respective factories
+- Calculates the total cost based on the provided pounds of bananas and apples and displays the results
+
+__GroceryProductTest.Java (class) screenshot:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/d2b2c0f7-64cd-4fc4-8bd3-c4b634ba946b)
 
