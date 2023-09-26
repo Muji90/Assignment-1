@@ -33,11 +33,11 @@ __BananaFactory.Java (class):__
 - It implements the factory method pattern for creating Banana products
 - It inherits from the 'ConcreteGroceryProductFactory' class
 - It overrides the 'createProduct' method to create Banana products
+- The Banana products are created with the default price per pound
+
 __BananaFactory.Java (class) sceenshot:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/a7a583dc-0fd2-4a91-a61e-f21d69bba4b9)
-
-- The Banana products are created with the default price per pound
 
 __ConcreteGroceryProductFactory.Java (class):__
 
