@@ -9,11 +9,17 @@ __Apple.Java (class) screenshot:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/6717da24-f179-4a6f-8efd-a12953badcb7)
 
-__AppleFactory (class):__
+__AppleFactory.Java (class):__
 - Creates Apple products using the Factory Method pattern.
 - It inherits from the 'ConcreteGroceryProductFactory' class
 - It overrides the 'createProduct' method to create apple products
 - The apple products are created with the default price per pound
 
-__AppleFactory screenshot (class):__
+__AppleFactory.Java screenshot (class):__
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/5cc9bb9d-4bf8-4a7f-bce9-932a300466dc)
+
+__Banana.Java (class):__
+- It represents a specific grocery product "Banana"
+- It inherits from the 'GroceryProduct' class
+- It defines specific attributes related to bananas such as 'type'
+- Default price per pound for bananas is set to $2.99 and the default type is "Regular"
