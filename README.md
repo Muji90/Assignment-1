@@ -16,6 +16,7 @@ __AppleFactory.Java (class):__
 - The apple products are created with the default price per pound
 
 __AppleFactory.Java screenshot (class):__
+
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/5cc9bb9d-4bf8-4a7f-bce9-932a300466dc)
 
 __Banana.Java (class):__
