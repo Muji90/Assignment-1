@@ -24,3 +24,18 @@ __Banana.Java (class):__
 - It inherits from the 'GroceryProduct' class
 - It defines specific attributes related to bananas such as 'type'
 - Default price per pound for bananas is set to $2.99 and the default type is "Regular"
+
+__Banana.Java (class) sceenshot:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/0ec3178d-f78a-40f5-9625-fc099c38fabd)
+
+__BananaFactory.Java (class):__
+- It implements the factory method pattern for creating Banana products
+- It inherits from the 'ConcreteGroceryProductFactory' class
+- It overrides the 'createProduct' method to create Banana products
+- The Banana products are created with the default price per pound
+
+__BananaFactory.Java (class) sceenshot:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/a7a583dc-0fd2-4a91-a61e-f21d69bba4b9)
+
