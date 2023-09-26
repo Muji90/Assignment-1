@@ -6,4 +6,8 @@
 - Apples are priced per pound at $1.99, and "Red Delicious" is the default variety.
 # Apple.Java (class) screenshot:
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/6717da24-f179-4a6f-8efd-a12953badcb7)
-
+# AppleFactory (class):
+- Creates Apple products using the Factory Method pattern.
+- It inherits from the 'ConcreteGroceryProductFactory' class
+- It overrides the 'createProduct' method to create apple products
+- The apple products are created with the default price per pound
