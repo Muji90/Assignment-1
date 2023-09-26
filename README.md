@@ -50,3 +50,22 @@ __ConcreteGroceryProductFactory.Java (class) sceenshot:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/3ec786fd-cf2c-4fe6-b233-37c8d25aca20)
 
+__DataFileReader.Java (class):__
+
+- A placeholder class representing the mechanism for reading data from a data file
+- It is mentioned in comments as a component that can be implemented based on the specific data file format. However, it's not implemented in the provided code
+
+__DataFileReader.Java (class) sceenshot:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/14c6a86d-c1d5-4a93-ac96-f49ede022937)
+
+__GroceryProduct.Java (class):__
+
+- It represents a generic grocery product
+- It contains attributes like 'name' and 'pricePerPound'
+- Provides a method to calculate the cost of the product based on its weight ('calculateCost')
+
+__GroceryProduct.Java (class) sceenshot:__  
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/5ffc5be9-6663-4bf9-9286-a2f349ef52cb)
+
