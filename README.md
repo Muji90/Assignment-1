@@ -1,5 +1,5 @@
 # Assignment 1: Design Patterns
-__Apple.Java (class):__
+[__Apple.Java (class):__] (http://www.github.com)
 - "Apple" is a specific grocery product. 
 - It inherits from 'GroceryProduct'. 
 - Apple variety is one example of an attribute related to apples 
