@@ -6,6 +6,8 @@ Md Nafes Zawad (100822025)
 
 Ishmeet Kaur (100809450)
 
+__# UML Class diagram__
+
 - __Directory src/main/java:__ Contains packages and java files
    
 - __MainPackage:__ This contains all the interfaces and the relevant factory classes
