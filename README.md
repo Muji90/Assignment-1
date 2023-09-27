@@ -6,7 +6,7 @@ Md Nafes Zawad (100822025)
 
 Ishmeet Kaur (100809450)
 
-# __UML Class diagram__
+# __UML Class diagram:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/f6b63c56-0aa3-44fd-bc2c-c1634bd9eb09)
 
@@ -58,7 +58,7 @@ __Relationships and Dependencies:__
 - Concrete GroceryProductFactory has a dependency on DataFileReader as it appears to use it for reading price data.
 - Banana and Apple classes both extend GroceryProduct, inheriting its attributes and methods.
 
-# __Java codes for interface and classes__
+# __Java codes for interface and classes:__
 
 - __Directory src/main/java:__ Contains packages and java files
    
