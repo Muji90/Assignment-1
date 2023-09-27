@@ -6,7 +6,7 @@ Md Nafes Zawad (100822025)
 
 Ishmeet Kaur (100809450)
 
-__# UML Class diagram__
+# __UML Class diagram__
 
 - __Directory src/main/java:__ Contains packages and java files
    
