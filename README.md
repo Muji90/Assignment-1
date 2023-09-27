@@ -1,7 +1,9 @@
 # Assignment 1: Design Patterns
 
 Muhammad Mujtaba Madad (100790195)
+
 Md Nafes Zawad (100822025)
+
 Ishmeet Kaur (100809450)
 
 __Apple.Java (class):__
