@@ -10,6 +10,10 @@ Ishmeet Kaur (100809450)
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/f6b63c56-0aa3-44fd-bc2c-c1634bd9eb09)
 
+__GroceryProductFactory (Interface)__
+
+- This is an interface that represents a food product manufacturing factory
+- It defines a method createProduct() for constructing GroceryProduct instances
 
 - __Directory src/main/java:__ Contains packages and java files
    
