@@ -8,6 +8,9 @@ Ishmeet Kaur (100809450)
 
 # __UML Class diagram__
 
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/f6b63c56-0aa3-44fd-bc2c-c1634bd9eb09)
+
+
 - __Directory src/main/java:__ Contains packages and java files
    
 - __MainPackage:__ This contains all the interfaces and the relevant factory classes
