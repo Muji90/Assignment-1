@@ -6,9 +6,9 @@ Md Nafes Zawad (100822025)
 
 Ishmeet Kaur (100809450)
 
-Directory src/main/java: Contains packages and java files
+- __Directory src/main/java:__ Contains packages and java files
    
-- MainPackage: This contains all the interfaces and the relevant factory classes
+- __MainPackage:__ This contains all the interfaces and the relevant factory classes
    
 __Apple.Java (class):__
 - "Apple" is a specific grocery product. 
