@@ -15,6 +15,51 @@ __GroceryProductFactory (Interface)__
 - This is an interface that represents a food product manufacturing factory
 - It defines a method createProduct() for constructing GroceryProduct instances
 
+__Concrete GroceryProductFactory:__
+
+- This is a concrete class that implements the GroceryProductFactory interface
+- It has a priceMap attribute, which is probably a map that matches product names with their prices
+- It has a constructor that takes a dataFilePath parameter
+- It contains a readPriceData(dataFilePath: String) function for reading price data
+- It overrides the interface's createProduct() method, which generates GroceryProduct objects
+
+__BananaFactory and AppleFactory:__
+
+- These are concrete classes that extend Concrete GroceryProductFactory
+- They both have constructors that take a dataFilePath parameter
+- They override the createProduct() function to create instances of certain grocery products (Banana and Apple) using the Concrete GroceryProductFactory
+
+__GroceryProduct (Class):__
+
+- This class represents a grocery item
+- It has the properties name and pricePerPound for the product's name and price per pound
+- It offers a constructor for initialising these attributes
+- It includes methods getName() and getPricePerPound() for retrieving the product's name and price per pound
+- It offers a method calculateCost(weight: double) for calculating the cost of a specific weight of the product
+
+__DataFileReader (Class):__
+
+- This class appears to be in charge of reading data files
+- It includes a readDataFile() method for reading data from a file
+- It has an attribute type that represents the type of data to be read
+
+__Banana and Apple (Classes):__
+
+- These are concrete classes that represent various sorts of supermarket products (banana and apple)
+- They both feature properties for product variation, presumably different types or varieties of bananas and apples
+- They contain getVariety() and setVariety(variety: String) methods for retrieving and updating the variety
+- They also override the calculateCost(weight: double) method to calculate the cost of a specific type of product
+
+__Relationships and Dependencies:__
+
+- GroceryProductFactory is an interface implemented by Concrete GroceryProductFactory.
+- Concrete GroceryProductFactory is extended by BananaFactory and AppleFactory.
+- BananaFactory and AppleFactory both override the createProduct() method defined in the interface.
+- Concrete GroceryProductFactory has a dependency on DataFileReader as it appears to use it for reading price data.
+- Banana and Apple classes both extend GroceryProduct, inheriting its attributes and methods.
+
+# __Java codes for interface and classes__
+
 - __Directory src/main/java:__ Contains packages and java files
    
 - __MainPackage:__ This contains all the interfaces and the relevant factory classes
