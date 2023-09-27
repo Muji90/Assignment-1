@@ -153,3 +153,7 @@ __GroceryProductTest.Java (class) screenshot:__
 
 ![image](https://github.com/Muji90/Assignment-1/assets/145510715/d2b2c0f7-64cd-4fc4-8bd3-c4b634ba946b)
 
+__OUTPUT:__
+
+![image](https://github.com/Muji90/Assignment-1/assets/145510715/c459263b-b3b2-4b5b-bb20-17b9032234fd)
+
